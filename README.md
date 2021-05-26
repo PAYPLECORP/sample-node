@@ -6,9 +6,3 @@
 ## Documentation
 
 [API DOCS](https://docs.payple.kr/) 보러가기
-
-### 도커로 실행하기
-
-```sh
-docker run -p 3000:3000 -it --rm payple:latest
-```
