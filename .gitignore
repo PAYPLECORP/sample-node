@@ -152,6 +152,9 @@ dist
 !.vscode/launch.json
 *.code-workspace
 
+### IntellJ ###
+/.idea/
+
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
