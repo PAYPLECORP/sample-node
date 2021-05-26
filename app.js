@@ -19,7 +19,7 @@ app.use(express.static(`${__dirname}/dist`))
 /*
  * 주문내역 입력
  */
-app.get('/order', (req, res) => { // order api
+app.get('/', (req, res) => { // order api
 
 //    const random = parseInt(randomBytes(8).toString('hex'), 16)
     let now_date = new Date()
