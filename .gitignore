@@ -152,7 +152,7 @@ dist
 !.vscode/launch.json
 *.code-workspace
 
-### IntellJ ###
+### IntelliJ ###
 /.idea/
 
 ### VisualStudioCode Patch ###
