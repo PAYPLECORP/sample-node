@@ -1,19 +1,20 @@
 {
-  "name": "dev.nodetest.payple.kr",
+  "name": "payple-node-sample",
   "version": "0.0.0",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon app"
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "request": "^2.88.2"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "json-dotenv": "0.0.1",
+    "morgan": "~1.9.1",
+    "nunjucks": "^3.2.3"
   },
   "devDependencies": {
-    "json-dotenv": "0.0.1",
-    "nodemon": "^1.18.3"
+    "nodemon": "^2.0.7"
   }
 }
